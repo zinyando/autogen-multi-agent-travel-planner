@@ -1,0 +1,16 @@
+[tool.poetry]
+package-mode = false
+name = "autogen-multi-agent-travel-assistant"
+version = "0.1.0"
+description = "A travel planner using multi-agent Autogen"
+authors = ["Lennex Zinyando <brizdigital@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyautogen = "^0.2.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
