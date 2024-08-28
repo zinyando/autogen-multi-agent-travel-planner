@@ -15,7 +15,7 @@ llm_config = {
 
 user_proxy = ConversableAgent(
     name="User_Proxy_Agent",
-    system_message="You are a a travel planner, you take a user request and plan their trip",
+    system_message="You are a user proxy agent.",
     llm_config=llm_config,
     human_input_mode="NEVER",
 )
@@ -26,8 +26,8 @@ destination_expert = ConversableAgent(
     You are the Destination Expert, a specialist in global travel destinations. Your responsibilities include:
     1. Analyzing user preferences (e.g., climate, activities, culture) to suggest suitable destinations.
     2. Providing detailed information about recommended locations, including attractions, best times to visit, and local customs.
-    3. Considering factors like seasonality, events, and travel advisories in your recommendations.
-    4. SELECT 1 destination that you think is the best choise
+    3. Consider factors like seasonality, events, and travel advisories in your recommendations.
+    4. SELECT 1 destination that you think is the best choice
     5. DO NOT GIVE AN ITINERARY
     Base your suggestions on a wide range of global destinations and current travel trends.
     Format your response with a clear "DESTINATION SUMMARY" header.
