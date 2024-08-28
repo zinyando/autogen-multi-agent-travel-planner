@@ -1,8 +1,8 @@
-# AI travel planner using Autogen
+# AI travel planner using Autogen GroupChat
 
 ## Blog post
 
-  [Your Personal AI Travel Team: Implementing a Multi-Agent Planner Using Autogen GroupChat]()
+  [Your Personal AI Travel Team: Implementing a Multi-Agent Planner Using Autogen GroupChat](https://www.zinyando.com/your-personal-ai-travel-team-implementing-a-multi-agent-planner-using-autogen-groupchat/)
 
 ## Installation
 
